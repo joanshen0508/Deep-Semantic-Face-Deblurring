@@ -1,8 +1,16 @@
-The code is implementation code for the following paper: 
+# Deep semantic face deblurring
+=======================================================================================
 
 Ziyi Shen, Wei-sheng Lai, Tingfa Xu, Jan Kautz and Ming-Hsuan Yang 
 Deep Semantic Face Deblurring
 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018
+=======================================================================================
+In this paper, we propose to deblur face images using a multiscale network. A face parsing neural network is embedded into the deblurring framework, a multiple loss functions is applied to constraint the model. It is capable of deblurring the face image with more accurate semantic details.
+
+The whole testing datasets have been released on our project website
+https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur
+
+If you want test our method on your own face data, please align your face data fisrtly.
 
 Requirements 
 MATLAB (We test with MATLAB R2016a on Windows 10)
@@ -25,8 +33,7 @@ or
 
 You also can run 'main_deblur_all.m' to test the blur images in ./blur_image and ./real_blur_image.
 
-In addition, the whole testing datasets have been released on our project website
-https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur
+
 
 
 We provide two models here.
@@ -38,5 +45,5 @@ Our model with L1 loss + parsing Loss + structure loss +feathure loss
 
 Our model with L1 loss + parsing Loss + structure loss + feathure loss + adversarial loss
 
-If you want test our method on your own face data, please align your face data fisrtly.
+
 
