@@ -8,6 +8,7 @@ Deep Semantic Face Deblurring
 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018
 
 =======================================================================================
+
 In this paper, we propose to deblur face images using a multiscale network. A face parsing neural network is embedded into the deblurring framework, a multiple loss functions is applied to constraint the model. It is capable of deblurring the face image with more accurate semantic details.
 
 The whole testing datasets have been released on our project website
