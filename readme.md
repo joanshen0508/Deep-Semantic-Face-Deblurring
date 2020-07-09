@@ -23,9 +23,9 @@ MATLAB (We test with MATLAB R2016a on Windows 10)
 Test Pre-trained Models
 
 Compile matconvnet:
->> cd matconvnet-1.0-beta22/matlab
->> vl_compilenn('enableGpu', 1, 'enableCudnn', 1)
->> cd ../../
+-> cd matconvnet-1.0-beta22/matlab
+-> vl_compilenn('enableGpu', 1, 'enableCudnn', 1)
+-> cd ../../
 
 We provide the matconvnet in,
 ./DL_deblur_net./matconvnet-1.0-beta22./matlab
