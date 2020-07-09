@@ -38,3 +38,5 @@ Our model with L1 loss + parsing Loss + structure loss +feathure loss
 
 Our model with L1 loss + parsing Loss + structure loss + feathure loss + adversarial loss
 
+If you want test our method on your own face data, please align your face data fisrtly.
+
