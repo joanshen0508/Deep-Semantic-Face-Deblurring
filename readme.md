@@ -11,8 +11,11 @@ IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018
 
 In this paper, we propose to deblur face images using a multiscale network. A face parsing neural network is embedded into the deblurring framework, a multiple loss functions is applied to constraint the model. It is capable of deblurring the face image with more accurate semantic details.
 
+
 The whole testing datasets have been released on our project website
 https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur
+
+The training data including the images and blur kernels have also been released.
 
 If you want test our method on your own face data, please align your face data fisrtly.
 
@@ -24,7 +27,9 @@ Test Pre-trained Models
 
 Compile matconvnet:
 -> cd matconvnet-1.0-beta22/matlab
+
 -> vl_compilenn('enableGpu', 1, 'enableCudnn', 1)
+
 -> cd ../../
 
 We provide the matconvnet in,
