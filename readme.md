@@ -15,7 +15,7 @@ In this paper, we propose to deblur face images using a multiscale network. A fa
 The whole testing datasets have been released on our project website
 https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur
 
-The training data including the images and blur kernels have also been released.
+The blur kernel for training our model is also been released.
 
 If you want test our method on your own face data, please align your face data fisrtly.
 
